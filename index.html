@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>AI Object Finder</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Itim&display=swap" rel="stylesheet">
+      <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+      
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body background="bg.jpg">
+        <center>
+            <h1 class="heading">AI Object Finder</h1>
+        <h2 class="heading2">The input name you will give should match the names present in CoCoSSD model, only then it will detect</h2>
+        <br> <br>
+        <h2 class="heading3">Object Name: </h2>
+        <br>
+        <div class="form-group" id="object_name_div"><input class="form-responsive" id="object_name_input"></div>
+        <br>
+        <button class="btn btn-info" id="start1" onclick="start()">Start</button>
+        <br> <br>
+        <button class="btn btn-info" id="status" style="margin-right: 10px;">Status: </button>
+        
+        <button class="btn btn-info" id="object_found">-----</button>
+        </center>
+
+        <div class="footer">
+            Developed by - Isheeta
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>

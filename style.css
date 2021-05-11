@@ -1,0 +1,76 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 45px;
+    width: 100%;
+    background-color: indigo;
+    color: white;
+    font-family: 'Cookie', cursive;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.heading2{
+    font-size: 30px;
+    width: 100%;
+    background-color: indigo;
+    color: white;
+    font-family: 'Itim', cursive;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.heading3{
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    width: 15%;
+    border-radius: 20px;
+    background-color: rgb(17, 192, 223);
+    color: white;
+    height: 40px;
+}
+
+div{
+    text-align: center;
+}
+
+#status, #start1, #object_found{
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+#start1{
+    background-color: rgb(148, 79, 197);
+    border-color: rgb(148, 79, 197);
+}
+
+input{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+canvas{
+    border: 5px solid black;
+    border-radius: 25px;
+    box-shadow: 6px 6px 6px grey;
+    margin-top: 175px;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    bottom: 0;
+    position: fixed;
+    line-height: 2;
+    font-size: 35px;
+    background-color: rgb(197, 159, 224);
+    color: white;
+    width: 100%;
+    
+}
